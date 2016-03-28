@@ -20,6 +20,7 @@
     self.view.backgroundColor=[UIColor redColor];
     UILabel *labe=[[UILabel alloc]initWithFrame:CGRectMake(10, 10, 100, 30)];
     labe.backgroundColor=[UIColor blackColor];
+    labe.text=@"asdasd";
     [self.view addSubview:labe];
 }
 
