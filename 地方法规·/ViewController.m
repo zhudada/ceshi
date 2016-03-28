@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor=[UIColor redColor];
+    UILabel *labe=[[UILabel alloc]initWithFrame:CGRectMake(10, 10, 100, 30)];
+    [self.view addSubview:labe];
 }
 
 - (void)didReceiveMemoryWarning {
